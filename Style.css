@@ -76,3 +76,9 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+.padding {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    color: white;
+}
