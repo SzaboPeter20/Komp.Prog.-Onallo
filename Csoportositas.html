@@ -18,11 +18,35 @@
 <body>
     <div class="hero-image">
         <div class="hero-text">
-          <h1>Az operációs rendszerek csoportosítása</h1>
+          <h1>Csoportosításuk</h1>
         </div>
     </div>
     <div class="padding">
+        <p><b><u>Parancskiadás módja szerint:</u></b></p>
+        <p><u>Parancsorientált:</u> az operációs rendszerben az utasítások, parancsok kiadása billentyűzet segítségével, szigorúan meghatározott szintaktikájú (formai követelményű) utasítások, illetve a hozzájuk kapcsolódó paraméterek, kapcsolók kiadásával történik.</p>
+        <p><u>Grafikus felhasználói felületű:</u> a bemeneti eszközök közül a mutatóeszközre optimalizált beviteli eljárásokat részesíti előnyben. A rendelkezésre álló menük (statikus és helyérzékeny menük) egyes pontjai, illetve ezek kibontása során az almenük segítik a parancs kiadását. A pontos paramétereket párbeszédpaneleken keresztül állíthatjuk be.</p>
+        <img src="gui-vs-cli.jpg">
+        <p><b><u>Program futtatása szerint:</u></b></p>
+        <p><u>Egy feladatos:</u> egyszerre csak egy felhasználói szoftver futtatását képes elvégezni. Példaként szintén a DOS operációs rendszert említhetjük.</p>
+        <p><u>Több feladatos:</u> egyszerre több programot működtethetünk, nyithatunk meg. Ez azonban nem jelenti azt, hogy ezek valóban szimultán (időben egyszerre) futnak, csupán az operációs rendszer a hardverek megfelelő vezérlésével ennek illúzióját kelti. Valójában az utasítás-végrehajtás sorosan történik, az egyes szoftverek futtatására a processzoridőt - a program prioritásának, teljesítményigényének figyelembevételével - szeletekre bontva, kellő gyakorisággal jutnak hozzá a szoftverek.</p>
+        <p><b><u>Felhasználók száma szerint:</u></b></p>
+        <p><u>Egy felhasználós:</u> nincsenek külön definiált (meghatározott) felhasználók, s ennek megfelelő jogosultsági feltételek, egyéni beállítások. Minden, a gépet használó személy ugyanabban a felhasználói környezetben végzi a munkáját.</p>
+        <p><u>Több felhasználós:</u> a felhasználók külön-külön felhasználói fiókokat (személyiségeket) határozhatnak meg maguknak. Minden egyes felhasználóhoz jogosultságok társíthatók a kiemelt (Rendszergazda vagy Administrator) felhasználó által.</p>
+        <img src="Difference-Between-DOS-and-Windows.png">
+        <p><b><u>Hálózatkezelés szerint:</u></b></p>
+        <p><u>Egyedi:</u> csak az adott gépen folytatott feladatvégzést támogatja.</p>
+        <p><u>Hálózati:</u> képes a hálózati kapcsolatok kezelésére, az ezen keresztüli adatfolyam vezérlésére, értelmezésére. Ennek segítségével akár távolról is vezérelhető.</p>
+        <p><b><u>Felhasználási cél szerint:</u></b></p>
+        <p><u>PC operációs rendszer:</u> általános célú személyi számítógép alkalmazói szoftvereinek futtatására szolgál, a személyi számítógép architektúrájához és az általános felhasználói igényekhez igazodik.</p>
+        <p><u>Szerver operációs rendszer:</u> egy időben több (sok) felhasználó igényeit, s több (sok) megosztott hardver és szoftver erőforrást kezel.</p>
+        <p><u>Speciális célú operációs rendszer:</u> nem általános számítógép, hanem informatikai céleszközök kezelését lehetővé tevő alapszoftver. Ilyenek lehetnek az aktív hálózati eszközök, a mobiltelefonok, multimédiás háztartási eszközök stb.</p>
+        <p><b><u>Forráskód szerint:</u></b></p>
+        <p><u>Nyílt forráskódú:</u> az operációs rendszer egyes részeinek programszerkezete, programkódjai bárki által megismerhetőek, megváltoztathatóak. Ez lehetőség a fejlesztésre, ám ezáltal egymástól eltérő variánsok jönnek létre.</p>
+        <p><u>Zárt forráskódú:</u> a fejlesztő a szerzői jogok fenntartása mellett csupán a használat jogát értékesíti, s a fejlesztéseket (javításokat) is maga végzi el a terméktámogatás részeként.</p>
     </div>
     <script src="Script.js"></script>
 </body>
+<footer>
+    &copy; 2020
+</footer>
 </html>
