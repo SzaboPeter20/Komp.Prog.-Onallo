@@ -60,7 +60,7 @@ body, html {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Heroimage.jpg");
 
-  height: 30%;
+  height: 20%;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +79,35 @@ body, html {
 
 .padding {
     background: rgba(0, 0, 0, 0.8);
-    position: absolute;
+    padding: 10px 50px 50px 50px;
     color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    max-width: 100%;
+}
+
+.center {
+    margin: auto;
+    max-width: 50%;
+}
+
+ul {
+    text-align: left;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: maroon;
+  color: white;
+  text-align: center;
 }
