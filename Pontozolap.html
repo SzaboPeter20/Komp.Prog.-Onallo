@@ -22,6 +22,41 @@
         </div>
     </div>
     <div class="padding">
+        <p><h2><b><u>Fontos!</u></b></h2></p>
+        <p>A gyakorlati és a szóbeli vizsgán is el kell érni a pontok legalább 10%-át, különben a vizsga elégtelen.<br> Tehát, a gyakorlatin legalább 12, a szóbelin pedig legalább 3 pontot el kell érni.</p>
+        <br>
+        <p><form>
+            <p><u><label for="gyp">Gyakorlati pontok száma (max. 120): </label><br></u></p>
+            <p><input type="text" name="num1" min="12" max="120"><br></p>
+            <p><u><label for="szp">Szóbeli pontok száma (max. 30):</label><br></u></p>
+            <p><input type="text" name="num2" min="3" max="30"><br></p>
+            <p><u><label for="ossz">Összesen:</label><br></u></p>
+            <p><input type="text" name="sum"><br></p>
+            <p><input type="button" value="Összead" onclick="calcSum()"></p>
+        </form></p>
+        <div class="kozep">
+        <p><table style="width:100%">
+            <tr>
+                <th>Pont</th>
+                <th>Osztályzat</th>
+                </tr>
+                 <td>120 - 150 pont </td><td>jeles</td>
+                </tr>
+                <tr>
+                    <td>90 - 119 pont </td><td>jó</td>
+                </tr>
+                <tr>
+                    <td>60 - 89 pont </td><td>közepes</td>
+                </tr>
+                <tr>
+                    <td>38 - 59 pont </td><td>elégséges</td>
+                </tr>
+                <tr>
+                    <td>0 - 37 pont </td ><td>elégtelen</td>
+                </tr>
+            </tr>
+        </table></p>
+        </div>
     </div>
     <script src="Script.js"></script>
 </body>
